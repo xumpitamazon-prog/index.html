@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+
+
+
+
+<style>
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+    text-decoration: underline;
+}
+
+
+main {
+    background: white;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+h2 {
+    color: #0056b3;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+
+img {
+    border-radius: 10%;
+    border: 4px solid #007bff;
+    object-fit: cover;
+    margin-top: 10px;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+form {
+    background: #fdfdfd;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+details {
+    background: #f1f3f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+
+audio, iframe {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+
+    <!-- 6 Header -->
+    <header>
+        <h1>My Personal Profile Page</h1>
+        <!-- Nav -->
+        <nav>
+            <a href="#about">About Me</a> | 
+            <a href="#academic">Academic Information</a> | 
+            <a href="#contact">Contact Form</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- 6 Main -->
+    <main>
+
+        <!-- 1 and 2. Sections, headings, paragraphs, and text formatting -->
+        <section id="about">
+            <h2>1. About Me </h2>
+            <p> My Name Is  <b>Sadman Hosan. </b> I am a  <i> Student </i> and am currently learning <u>Web development</u>. I have a great passion for programming and exploring new things. <mark>This is my first website!</mark></p>
+
+            <!-- 5 mul-->
+            <br>
+            <img src="Sadman.pnj.jpeg" alt="My Photo" width="200" height="150">
+            
+            <!-- 7  Details এবং Summary -->
+            <details>
+                <summary>Click to learn more about my hobbies and preferences</summary>
+                <p>My main hobbies are coding, reading books, and playing sports in my free time.</p>
+            </details>
+
+            <!-- 7. Clickable Button -->
+            <br>
+            <button onclick="alert('Thank you for viewing my profile!')"> please click on me.</button>
+        </section>
+
+        <hr>
+
+        <!-- 4 table academic information -->
+        <section id="academic">
+            <h2>Academic Information</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <tr>
+                    <th>Exam</th>
+                    <th>Institution</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>NS KAMIL MADRASHA</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>NS KAMIL MADRASHA</td>
+                    <td>2025</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- 3 from , name , email , password , gender , hobbies, submit button -->
+        <section id="contact">
+            <h2>3. Contact Form</h2>
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <label>Hobbies:</label><br>
+                <input type="checkbox" id="hobby1" name="hobby" value="reading">
+                <label for="hobby1">Reading Books</label>
+                <input type="checkbox" id="hobby2" name="hobby" value="gaming">
+                <label for="hobby2">Playing Games</label><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <hr>
+
+        <!--5 audio-->
+        <section>
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+        </section>
+
+    </main>
+
+    <hr>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XkxZCJ2pYqs?si=sjaZwMUdMT7di5iV" title="YouTube video player" frameborder="1"></iframe>
+
+
+
+
+
+    <!--6 Footer -->
+    <footer>
+        <p>&copy; 2026 My Personal Profile. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
